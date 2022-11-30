@@ -1,0 +1,40 @@
+
+.color-white {
+    color: #ffffff; 
+}
+
+.color-black {
+    color: #000000; 
+}
+
+.color-blue {
+    color: #0d6efd; 
+}
+
+.background-color-white {
+    background-color: #ffffff; 
+}
+
+.background-color-gray {
+    background-color: rgba(128, 128, 128, 0.178);
+}
+
+.background-color-black {
+    background-color: #000000; 
+}
+
+.background-color-blue {
+    background-color: #0d6efd; 
+}
+
+.svg-color-white {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(174deg) brightness(102%) contrast(102%); 
+}
+
+.svg-color-black {
+    filter: invert(0%) sepia(92%) saturate(32%) hue-rotate(92deg) brightness(107%) contrast(107%); 
+}
+
+.svg-color-blue {
+    filter: invert(28%) sepia(68%) saturate(3367%) hue-rotate(209deg) brightness(101%) contrast(99%); 
+}

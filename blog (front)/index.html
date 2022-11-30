@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./assets/bootstrap-5.2.0/css/bootstrap.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/colors.css">
+    <link rel="stylesheet" href="./assets/css/size.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <title>Index</title>
+</head>
+<body>
+
+    <!-- main container -->
+    <div class="container">
+
+        <!-- header -->
+        <header>
+
+            <!-- navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded-2">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="http://localhost:5500">
+                        <img src="./assets/boxicons-2.1.2/svg/logos/bxl-bootstrap.svg" alt="bootstrap logo" width="30" height="24" class="d-inline-block align-text-top svg-color-white">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="http://localhost:5500">Home</a></li>
+                            <!-- <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li> -->
+                            <li class="nav-item dropdown"><button type="button" class="nav-link btn btn-dark border-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">Login</button>
+                                <form class="dropdown-menu dropdown-menu-dark width-300 p-4">
+                                    <div class="mb-3">
+                                        <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+                                    </div>
+                                    <button type="submit" class="btn btn-dark border-white">Sign in</button>
+                                </form>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Title" aria-label="Search" id="input-search">
+                            <button class="btn btn-dark border-white" type="button" id="btn-search">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- section -->
+        <section class="album py-4 background-color-gray rounded-2 min-height-90-vh">
+            <div class="container" id="div-container">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="div-row">
+                    <!-- div-row -->
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <div class="container background-color-black pt-4 pb-3 rounded-2">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="/" class="me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                        <div class="bi" width="30" height="24">
+                            <img src="./assets/boxicons-2.1.2/svg/logos/bxl-bootstrap.svg" alt="bootstrap icon" class="svg-color-white">
+                        </div>
+                    </a>
+                    <span class="mb-md-0 color-white">© 2022 Company, Inc</span>
+                </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3">
+                        <a href="#">
+                            <div class="bi" width="24" height="24">
+                                <img src="./assets/boxicons-2.1.2/svg/logos/bxl-facebook.svg" alt="facebook icon" class="svg-color-white">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a href="#">
+                            <div class="bi" width="24" height="24">
+                                <img src="./assets/boxicons-2.1.2/svg/logos/bxl-instagram.svg" alt="instagram icon" class="svg-color-white">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a href="#">
+                            <div class="bi" width="24" height="24">
+                                <img src="./assets/boxicons-2.1.2/svg/logos/bxl-twitter.svg" alt="twitter icon" class="svg-color-white">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+
+        <!-- to up button -->
+        <div class="to-up-button mb-2 background-color-blue rounded-1">
+            <a href="#">
+                <img src="./assets/boxicons-2.1.2/svg/regular/bx-arrow-to-top.svg" alt="arrow to top" class="svg-color-white">
+            </a>
+        </div>
+    </div>
+
+    <!-- bootstrap js -->
+    <script src="./assets/bootstrap-5.2.0/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

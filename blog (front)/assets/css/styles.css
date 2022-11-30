@@ -1,0 +1,15 @@
+
+* {
+    margin: 0; 
+    padding: 0; 
+}
+
+.min-height-90-vh {
+    min-height: 90vh;
+}
+
+.to-up-button {
+    position: fixed; 
+    bottom: 0px; 
+    right: 50%; 
+}
